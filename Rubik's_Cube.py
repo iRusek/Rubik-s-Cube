@@ -7,7 +7,6 @@
 from IPython.display import clear_output 
 import random 
 import numpy
-#import py_getch
 
 class Cube:
     "Has 6 sides" 
@@ -24,7 +23,6 @@ class Cube:
     def __str__(self):
         text=" "*15+"-"*13+"\n"
         for i in range(2,-1,-1):
-            #text+=(" "+""*3*(7-3*i)+"╔"+"═"*(20)+"|" + self.sides[0].color(self.sides[0].tiles[3*i]) + " " + self.sides[0].color(self.sides[0].tiles[3*i+1]) + " " + self.sides[0].color(self.sides[0].tiles[3*i+2]) +"|"+"═"*20+"╗"+ " "*4)
             text+=(" "*13+" | " + self.sides[0].color(self.sides[0].tiles[3*i]) + " " + self.sides[0].color(self.sides[0].tiles[3*i+1]) + " " + self.sides[0].color(self.sides[0].tiles[3*i+2])+" |\n")
         text+=" "+("-"*13+" ")*4+"\n"
         for i in range(2,-1,-1):
@@ -63,7 +61,6 @@ class Cube:
             else:
                 print("Good-Bye!")
                 return
-            #getch.getch("Press any key to continue")
 
 
     "Represantation methods"
