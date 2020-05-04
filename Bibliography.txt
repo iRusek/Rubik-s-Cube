@@ -1,0 +1,4 @@
+printing in color			https://www.geeksforgeeks.org/print-colors-python-terminal/
+3d animation			https://css-tricks.com/creating-photorealistic-3d-graphics-web/
+ANSI escape sequence		http://ascii-table.com/ansi-escape-sequences.php
+random library			https://pynative.com/python-random-module/
